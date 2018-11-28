@@ -1,0 +1,100 @@
+<style type="text/css">
+		.carousel-container {
+			max-width: 1200px;
+			margin-right: auto;
+			margin-left: auto;
+			z-index: 10 !important;
+			position: relative;
+		}
+		.owl-dots {
+			display: none;
+		}
+		.owl-prev,
+		.owl-next {
+			position: absolute;
+		    top: 0;
+		    bottom: 0;
+		    width: 5%;
+		    cursor: pointer;
+		    z-index: 15;
+		    -webkit-transition: height ease-in-out .3s;
+		    -moz-transition: height ease-in-out .3s;
+		    -o-transition: height ease-in-out .3s;
+		    transition: height ease-in-out .3s;
+    		display: inline-block;
+		}
+		.owl-prev{
+			left: -3%;
+		}
+		.owl-next {
+			right: -3%;
+		}
+		.nsocicon {
+    width: 20px;
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+    }
+    .owl-prev span,
+    .owl-next span{
+    	display: none;
+    }
+    .owl-prev:hover,
+    .owl-next:hover{
+    	background: transparent !important;
+    	border: 0px solid transparent !important;
+    }
+    .owl-prev:focus,
+    .owl-next:focus{
+    	outline: none;
+    }
+    .owl-prev:active,
+    .owl-next:active{
+    	outline: none;
+    }
+    .owl-prev::-moz-focus-inner,
+    .owl-next::-moz-focus-inner {
+  		border: 0;
+	}
+	
+    .t-slds__arrow_body-left,
+    .t-slds__arrow_body-right{
+        display: none;
+    }
+    .t-slds__arrow-left,
+    .t-slds__arrow-right{
+        width: 0px !important;
+        height: 0px !important;
+        background-color: #ffffff !important;
+    }
+    .t-slds__arrow-left {
+        left: 10px;
+    }
+    @media screen and (max-width: 1200px) {
+        .img-item {
+			width: 300px !important;
+		}
+		.carousel-container {
+			max-width: 900px;
+		}
+		.owl-prev{
+			left: -5%;
+		}
+		.owl-next {
+			right: -5%;
+		}
+        
+    }
+    @media screen and (max-width: 960px) {
+     .t-slds__arrow_wrapper-right{
+            right: 20px;
+     }
+    }
+    @media screen and (max-width: 480px) {
+     .nsocicon {
+        width: 15px;
+     }
+     .t-slds__arrow_wrapper-right{
+            right: 15px;
+        }
+    }
+	</style>
