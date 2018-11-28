@@ -1,4 +1,4 @@
-<script>
+
 $(document).ready(function(){
     $('.t-input-group_nm, .t-input-group_em, .t-input-group_ph').wrapAll('<div class="wrap-input" />');
     $('.t-submit').append('<img class="circle" src="https://static.tildacdn.com/tild3135-3332-4661-b939-626433646437/_13.png" />');
@@ -56,4 +56,3 @@ $(document).ready(function(){
     });
 
 });
-</script>
