@@ -232,5 +232,190 @@
    .display {
  	display: none;
     }
+	    
+// Слайдер "Наши клиенты"
+#rec76248352 .t-slds__items-wrapper {
+        height: 390px !important;
+    }
+    .t738__item_4-in-row {
+        width: 33%;
+    }
+    .t738__item {
+        padding: 0px;
+    }
+    .t-slds{
+        z-index: 10 !important;
+    }
+    .nsocicon {
+    width: 20px;
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+    }
+    .t-slds__arrow_body-left,
+    .t-slds__arrow_body-right{
+        display: none;
+    }
+    .t-slds__arrow-left,
+    .t-slds__arrow-right{
+        width: 0px !important;
+        height: 0px !important;
+        background-color: #ffffff !important;
+    }
+    .t-slds__arrow-right{ 
+        
+    }
+    .t-slds__arrow_wrapper-left {
+        
+    }
+    .t-slds__arrow-left {
+        left: 10px;
+    }
+    @media screen and (max-width: 1200px) {
+
+    }
+    @media screen and (max-width: 960px) {
+        .t-slds__arrow_wrapper-right{
+            right: 20px;
+        }
+    }
+    @media screen and (max-width: 640px) {
+
+    }
+    @media screen and (max-width: 480px) {
+     .nsocicon {
+        width: 15px;
+     }
+     .t-slds__arrow_wrapper-right{
+            right: 15px;
+        }
+    }
+	    
+// Блок "Наши проекты"
+    #rec76416076,
+    .tn-elem__762439711542961326221,
+    .tn-elem__762439711543379189347{
+        display:none;
+     }
+	    
+// Блок "Вакансии"
+.color-2 {
+        background-color: #ff6600 !important;
+    }
+    .tn-elem[data-elem-id="1542975740102"] .tn-atom,
+    .tn-elem[data-elem-id="1542975887572"] .tn-atom{
+        cursor: pointer;
+    }
+    .t-name a {
+        color: #ffffff !important;
+    }
+    .t812__pricelist-item  {
+        padding-left: 110px !important;
+    }
+    .t-prefix_1 {
+        
+        padding-left: 0px;
+        margin-left: 110px !important;
+    }
+    #rec76310600 .t812__col {
+        background-color: #ff6600;
+    }
+    #rec76536875 {
+        display: none;
+    }
+    #rec76536875 .t812__col {
+       background-color: #04adbf;
+    }
+    .t812__col {
+        padding-top: 85px;
+        padding-bottom: 85px;
+    }
+    .t812__col:first-child {
+        margin-right: 0px !important;
+    }
+    .t812__col:last-child {
+        margin-left: 0px !important;
+    }
+    .t-col_5 {
+        max-width: 490px;
+    }
+    .t-name {
+        color: #ffffff;
+    }
+    .t-name:hover {
+        transform: scale(1.1);
+        transition: transform 0.2s ease-in-out
+    }
+    .t812__pricelist-item__row_1 {
+        padding-bottom: 0px;
+    }
+    @media screen and (max-width: 1200px) {
+        .t-prefix_1 {
+        padding-left: 0px;
+        margin-left: 0px !important;
+    }
+    .t-col_5 {
+        max-width: 475px;
+
+    }
+    .t812__pricelist-item  {
+        padding-left: 80px !important;
+    }
+    .t812__col:first-child,
+    .t812__col:last-child{;
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+    }
+    @media screen and (max-width: 960px) {
+        .t-col_5 {
+        max-width: 320px;
+        }
+        .t-col {
+            float: left;
+            padding-left: 0px !important;
+        }
+        .t812__pricelist-item  {
+        padding-left: 40px !important;
+    }
+    .t812__col:first-child,
+    .t812__col:last-child{;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    }
+    @media screen and (max-width: 640px) {
+        .t-col_5 {
+            max-width: 100%;
+        }
+        .t-col {
+            padding-left: 20px !important;
+        }
+        .t-name {
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .t812__col:first-child {
+            padding-bottom: 20px !important;
+    }
+        #rec76310600 .t812__col:first-child,
+        #rec76536875 .t812__col:first-child{
+            margin-bottom: 0px  !important;
+        }
+        .t812__col:last-child{;
+        padding-top: 10px;
+    }
+    .t812__pricelist-item {
+        padding-left: 0px !important;
+    }
+    .t812__pricelist-item {
+            margin-bottom: -10px !important;
+        }
+    }
+    @media screen and (max-width: 480px) {
+        .t-name {
+            text-align: center;
+        }
+    }
+	    
 
 </style>
