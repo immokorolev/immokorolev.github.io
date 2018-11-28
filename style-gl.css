@@ -220,4 +220,17 @@
         padding-top: 10px !important;
     }
     }
+// Плавающее меню
+    .floating {
+ 	width: 100%;
+    }
+    .fixed {
+ 	position: fixed;
+ 	top: 0px;
+ 	z-index: 9000;
+    }
+   .display {
+ 	display: none;
+    }
+
 </style>
